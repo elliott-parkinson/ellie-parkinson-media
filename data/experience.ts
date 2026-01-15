@@ -15,7 +15,7 @@ export const experience = [
   },
   {
     title: "Droppy Blocky",
-    url: "",
+    url: "https://block-sinvl.netlify.app/",
     date: "2026",
     pictureSrc: asset("images/projects/droppy-blocky.png"),
     iconSrc: "",
