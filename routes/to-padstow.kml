@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>[Route[ Isles of Scilly To Padstow</name>
+    <Placemark>
+      <name>001</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.31199,49.9194,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM011</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.32113,49.9198,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM010</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.33027,49.9183,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM009</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.33311,49.9104,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM008</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.3249,49.9051,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM007</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.30632,49.9009,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM006</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.27384,49.9044,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>002</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.13696,49.9882,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>003</name>
+      <description></description>
+      <Point>
+        <coordinates>-6.0004,50.0766,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM001</name>
+      <description></description>
+      <Point>
+        <coordinates>-5.76086,50.1698,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>004</name>
+      <description></description>
+      <Point>
+        <coordinates>-5.07035,50.5481,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM013</name>
+      <description></description>
+      <Point>
+        <coordinates>-4.98926,50.5843,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM003</name>
+      <description></description>
+      <Point>
+        <coordinates>-4.93524,50.5679,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM012</name>
+      <description></description>
+      <Point>
+        <coordinates>-4.93564,50.5604,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NM002</name>
+      <description></description>
+      <Point>
+        <coordinates>-4.92979,50.5594,0. </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Path</name>
+      <LineString>
+        <coordinates>-6.31199,49.9194,0. -6.32113,49.9198,0. -6.33027,49.9183,0. -6.33311,49.9104,0. -6.3249,49.9051,0. -6.30632,49.9009,0. -6.27384,49.9044,0. -6.13696,49.9882,0. -6.0004,50.0766,0. -5.76086,50.1698,0. -5.07035,50.5481,0. -4.98926,50.5843,0. -4.93524,50.5679,0. -4.93564,50.5604,0. -4.92979,50.5594,0. </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

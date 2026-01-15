@@ -1,0 +1,12 @@
+ul.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  > li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 1em;
+    padding: 0.3em 0.8em;
+  }
+}

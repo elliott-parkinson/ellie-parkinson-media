@@ -1,0 +1,38 @@
+ul.interests-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    list-style: none;
+    flex-basis: 21em;
+    flex-grow: 1;
+    padding: 0.3em 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > strong {
+      margin-top: 1em;
+      display: block;
+      text-align: center;
+    }
+
+    > picture {
+      display: inline-block;
+      max-width: 100%;
+
+      > img {
+        border-radius: 1em;
+        max-width: 100%;
+        min-height: 198px;
+        min-width: 353px;
+        object-fit: cover;
+        background-color: lightgray;
+      }
+    }
+  }
+}

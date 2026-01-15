@@ -1,0 +1,23 @@
+html, body, header { 
+    --background-color: #F8F8F8;
+    --title-background-color: #EBEBEB;
+    --secondary-border-color: #C3C3C3;
+    --title-text-color: #1E1E1E;
+}
+
+* {
+    color-scheme: light;
+  --text-color: rgba(0, 0, 0, .87);
+  --secondary-border-color: #C3C3C3;
+  --border-color: #E5E5E5;
+  --tab-selected-color: #005FB4;
+  --tab-hover-color: #FFFFFF;
+  --tab-text-color: #2C7A2C;
+  --card-background-color: #F7F7F7;
+  --card-border-color: #047ED0;
+  --title-background-color: #EBEBEB;
+  --title-text-color: #1E1E1E;
+  --tabarea-background-color: #F8F8F8;
+  --footer-background-color: #F8F8F8;
+  --editor-background-color: #F8F8F8;
+}

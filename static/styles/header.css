@@ -1,0 +1,24 @@
+header {
+  background-color: var(--background-color);
+  min-height: 2em;
+  padding: .4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  > h1 {
+    font-size: .8em;
+    background-color: var(--title-background-color);
+    border: solid .1em var(--secondary-border-color);
+    border-radius: .3em;
+    padding: .2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: min(800px,calc(100% - 4em));
+    color: var(--title-text-color);
+    margin: 0;
+    }
+}
+

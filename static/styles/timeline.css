@@ -1,0 +1,111 @@
+time-line {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1em;
+  gap: 1em;
+}
+
+time-line {
+  --point-diameter: 2em;
+  --point-color: lightgrey;
+
+  position: relative;
+  margin: 0 auto;
+  gap: 0em;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    background-color: var(--point-color);
+    top: 1em;
+    bottom: 0;
+    left: 1.8em;
+  }
+}
+
+timeline-item {
+  display: flex;
+  flex-direction: column;
+
+
+  padding: 0 3.5em;
+  position: relative;
+  background-color: inherit;
+
+  > .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    > div {
+      flex-basis: 40em;
+    }
+
+    > picture {
+      flex-basis: calc(100% - 50em);
+      background-color: lightgray;
+      object-fit: contain;
+      margin-inline: auto;
+
+      > img {
+        object-fit: contain;
+        background-size: contain;
+      }
+    }
+  }
+  
+
+  &::before {
+    content: " ";
+    border-radius: 50%;
+    background-color: var(--point-color);
+    width: var(--point-diameter);
+    height: var(--point-diameter);
+
+    position: absolute;
+    top: 1em;
+    bottom: 0;
+    left: 0em;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    > span {
+      position: flex-start;
+      font-weight: 400;
+    }
+
+    > span.date {
+      position: flex-end;
+      font-weight: 400;
+    }
+  }
+
+  picture {
+    flex-basis: 20em;
+    flex-shrink: 0;
+    display: flex;
+    margin-inline: auto;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+
+    > img {
+      max-width: 20em;
+      width: 100%;
+      border-radius: 1.5em;
+      min-height: 198px;
+      min-width: 353px;
+      max-height: 8em;
+      
+      object-fit: contain;
+      background-color: lightgray;
+    }
+  }
