@@ -2,10 +2,6 @@ FROM denoland/deno:latest
 
 WORKDIR /app
 
-# Cache deps first (optional but recommended)
-COPY deno.json* ./
-RUN deno cache --reload main.ts
-
 # Copy the rest of the repo
 COPY . .
 
