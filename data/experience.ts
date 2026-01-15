@@ -21,7 +21,7 @@ export const experience = [
     iconSrc: "",
     content: [
       "A personal project built because I missed playing Super Collapse! 3. This game is no longer available to purcahse and play without played some derrived version fo the game for facebook which requires you to share with friends for extra playtime and spin / loot to keep playing. I wanted to have the uninterrupted fun that I used to without any of the gamified mechanics that (for me) ruined the modern iterations of the game.",
-      "Designed to use service workers and indexedDB to cache data and improve performance.",
+      "Designed to use service workers and indexedDB to cache data and improve performance. it uses a custom WebGPU setup for rendering with a fallback to Context2D.",
     ],
     skills: ["react", "webcomponents", "typescript", "canvas", "web-audio"]
   },
