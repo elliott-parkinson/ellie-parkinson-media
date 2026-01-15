@@ -3,7 +3,7 @@ import { asset } from "$fresh/runtime.ts";
 export const experience = [
   {
     title: "Inaudible - web",
-    url: "",
+    url: "https://github.com/elliott-parkinson/inaudible-web",
     date: "2026",
     pictureSrc: asset("images/inaudible.png"),
     iconSrc: "",
