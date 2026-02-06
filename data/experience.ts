@@ -38,7 +38,7 @@ export const experience = [
     ],
     skills: ["typescript", "nextjs", "react", "shadcn", "tailwindcss"]
   },
-  {
+  /*{
     title: "Communication South West",
     url: "",
     date: "2026",
@@ -49,7 +49,7 @@ export const experience = [
       "",
     ],
     skills: ["deno", "fresh", "webcomponents", "typescript"]
-  },
+  },*/
   {
     title: "Aptec IT Rebuild",
     url: "https://www.aptecitsolutions.co.uk",
