@@ -1,4 +1,5 @@
 import "../components/timeline-search.ts";
-//import "../components/picture-modal.ts";
+import "../components/carousel-item.ts";
+import "../components/carousel-list.ts";
 
-console.log('loaded')
+console.log("loaded: with carousel");

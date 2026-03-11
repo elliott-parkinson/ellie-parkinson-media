@@ -41,7 +41,7 @@ timeline-item {
 
 
     > div {
-      flex-basis: 40em;
+      flex-basis: min(40em, 50%);
     }
 
     > picture {
@@ -89,13 +89,13 @@ timeline-item {
   }
 
   picture {
-    flex-basis: 20em;
+    flex-basis: min(20em, 35%);
     flex-shrink: 0;
     display: flex;
     margin-inline: auto;
     width: 100%;
-    justify-content: end;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
 
     > img {
       max-width: 20em;

@@ -33,9 +33,9 @@ body {
   flex-direction: column;
 
   > section {
-  background-color: var(--background-color);
-      width: min(1170px,calc(100% - 4em));
-      align-self: center;
+    background-color: var(--background-color);
+    width: min(1170px,calc(100% - 4em));
+    align-self: center;
   }
 }
 
@@ -125,6 +125,16 @@ picture.avatar {
 
 
 @media print {
+  @page {
+    size: A4;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+      font-size: 0.9em;
+  }
+
   .no-print {
     display: none;
   }
@@ -132,8 +142,55 @@ picture.avatar {
   .page-break {
     break-before: page; /* or break-after: page */
   }
+
+
+  body {
+
+    > section {
+      width: 100%;
+    }
+  }
+
+
+  ul.interests-list {
+    flex-basis: 16em;
+    > li {
+      font-size: 0.9em;
+      > picture {
+        text-align: center;
+        > img {
+          max-width: 80%;
+          margin-inline: auto;
+          min-height: 100px;
+          min-width: 190px;
+          background-color: red;
+        }
+      }
+    }
+  }
 }
 
 
 alert-section {
+}
+
+section.project-hero {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4em;
+  flex-wrap: wrap;
+  
+  > carousel-list {
+    max-width: 800px;
+    margin-inline: auto;
+    flex-basis: 40%;
+    flex-shrink: 0;
+    min-width: 22em;
+  }
+
+  > div {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 20em;
+  }
 }

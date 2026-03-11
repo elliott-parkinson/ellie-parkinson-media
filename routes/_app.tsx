@@ -14,7 +14,7 @@ export default function App({ Component }: PageProps) {
         <header>
           <h1>Ellie Parkinson [Web Architect]</h1>
         </header>
-        <nav>
+        {/*<nav>
           <menu>
             <li>
               <a href="/">Home</a>
@@ -26,11 +26,11 @@ export default function App({ Component }: PageProps) {
               <a href="/cv">CV</a>
             </li>
           </menu>
-        </nav>
+        </nav>*/}
         <Component />
 
 
-        <script src={asset("main.js")} async defer />
+        <script src={asset("/main.js")} async defer />
       </body>
     </html>
   );
