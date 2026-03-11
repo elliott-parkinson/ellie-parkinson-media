@@ -2,6 +2,18 @@ import { asset } from "$fresh/runtime.ts";
 
 export const experience = [
   {
+    title: "Phase 1 Transport Portal",
+    url: "",
+    date: "2026",
+    pictureSrc: asset("images/projects/phase1.png"),
+    iconSrc: "",
+    content: [
+      "A unified portal where logistics teams access and manage the tools that run their operations. Managing drivers, deliveries, customer updates and much more.",
+      "Working with the client from the planning to MVP and finally deployment stage.",
+    ],
+    skills: ["preact", "webcomponents", "typescript", "signals", "deno", "fresh"]
+  },
+  {
     title: "Inaudible - web",
     url: "https://github.com/elliott-parkinson/inaudible-web",
     date: "2026",
@@ -11,7 +23,7 @@ export const experience = [
       "An alternative frontend for Audiobookshelf, a shelf hosted audiobook metadata manager and player. Built as a personal project because I wanted to resolve performance and UI issues with the original frontend.",
       "Designed to use service workers and indexedDB to cache data and improve performance.",
     ],
-    skills: ["react", "webcomponents", "typescript", "audiobookshelf"]
+    skills: ["react", "webcomponents", "typescript", "audiobookshelf", "personal project"]
   },
   {
     title: "Droppy Blocky",
@@ -22,8 +34,9 @@ export const experience = [
     content: [
       "A personal project built because I missed playing Super Collapse! 3. This game is no longer available to purcahse and play without played some derrived version fo the game for facebook which requires you to share with friends for extra playtime and spin / loot to keep playing. I wanted to have the uninterrupted fun that I used to without any of the gamified mechanics that (for me) ruined the modern iterations of the game.",
       "Designed to use service workers and indexedDB to cache data and improve performance. it uses a custom WebGPU setup for rendering with a fallback to Context2D.",
+      "Ported to a reddit game in March 2026",
     ],
-    skills: ["react", "webcomponents", "typescript", "canvas", "web-audio"]
+    skills: ["webcomponents", "typescript", "canvas", "webgpu", "web-audio", "personal project"]
   },
   {
     title: "Smartworkx",
@@ -74,7 +87,7 @@ export const experience = [
       "This job involved building from scratch an electrical system, plumbing, heating, fibreglassing and a whole host of other work.",
       "Having previously been condemned, I restored the boat fully and had her sailing within only 3 months of work.",
     ],
-    skills: ["plumbing", "fibreglassing", "electronics", "shipwrighting"]
+    skills: ["plumbing", "fibreglassing", "electronics", "shipwrighting", "personal project"]
   },
   {
     title: "Shawbrook Bank",

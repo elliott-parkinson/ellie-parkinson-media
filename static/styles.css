@@ -104,14 +104,13 @@ picture.avatar {
   html, body, section {
     width: 100vw;
   }
-  picture:not(.avatar) > img {
-    display: none;
-  }
+
 
   nav { display: none; }
 
   time-line {
     padding-inline: 0;
+    --point-color: transparent;
   }
 
 
