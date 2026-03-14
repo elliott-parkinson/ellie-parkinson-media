@@ -5,7 +5,9 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $index from "./routes/index.tsx";
-import * as $projects_droppy_blocky from "./routes/projects/droppy-blocky.tsx";
+import * as $projects_droppy_blocky_index from "./routes/projects/droppy-blocky/index.tsx";
+import * as $projects_droppy_blocky_privacy_policy from "./routes/projects/droppy-blocky/privacy-policy.tsx";
+import * as $projects_droppy_blocky_terms_and_conditions from "./routes/projects/droppy-blocky/terms-and-conditions.tsx";
 
 import type { Manifest } from "$fresh/server.ts";
 
@@ -14,7 +16,11 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/index.tsx": $index,
-    "./routes/projects/droppy-blocky.tsx": $projects_droppy_blocky,
+    "./routes/projects/droppy-blocky/index.tsx": $projects_droppy_blocky_index,
+    "./routes/projects/droppy-blocky/privacy-policy.tsx":
+      $projects_droppy_blocky_privacy_policy,
+    "./routes/projects/droppy-blocky/terms-and-conditions.tsx":
+      $projects_droppy_blocky_terms_and_conditions,
   },
   islands: {},
   baseUrl: import.meta.url,
