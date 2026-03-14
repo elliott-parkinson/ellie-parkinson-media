@@ -12,7 +12,7 @@ export default function App({ Component }: PageProps) {
       </head>
       <body>
         <header>
-          <h1>Ellie Parkinson [Web Architect]</h1>
+          <h1>Ellie Parkinson [Product Engineer]</h1>
         </header>
         {/*<nav>
           <menu>

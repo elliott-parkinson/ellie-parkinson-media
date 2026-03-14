@@ -43,7 +43,7 @@ export default function Home() {
     </section>
     <section>
       <h2>Sociable, experienced and passionate!</h2>
-      <p>I'm a Wessex based, sociable, web architect with over a decade experience in the industry. I contract and freelance for a range of clients throughout the UK. </p>
+      <p>I'm a Wessex based, sociable, product engineer with over a decade experience in the industry. I contract and freelance for a range of clients throughout the UK. </p>
       <p>I take a special interest in performance, modularity and re-usability. My goal is always to build high quality <a href="https://www.amazon.co.uk/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">clean code</a>, using the coding standards of either the language or an existing codebase. This should be done without compromising on the time it should take to complete a project. The idea is to make the code easier to maintain, as the majority of the costs incurred when developing are in the maintenance, not the initial build.</p>
       <p>Currently, this means a primarily backend-rendered site (using Deno and Fresh) with web components for progressive enhancements.</p>
       <p>I specialise in frontend solutions. I am skilled in Typescript, React, SolidJS, Lit and many more.</p>
